@@ -55,7 +55,7 @@ export default function GalleryUI(props: IGalleryProps) {
               자세히보기
             </ShowDetail>
             <MoveToGit
-              id="https://github.com/luckychdl/Codecamp"
+              id="https://github.com/luckychdl/used-market"
               onClick={props.onClickMoveToNotion}
             >
               Github
