@@ -10,12 +10,12 @@ import {
   ButtonWrapper,
   ShowDetail,
   MoveToGit,
-} from "./Gallery.styles";
+} from "./Resume.styles";
 
-interface IGalleryProps {
+interface IResumeUIProps {
   onClickMoveToNotion: (e: MouseEvent<HTMLButtonElement>) => void;
 }
-export default function GalleryUI(props: IGalleryProps) {
+export default function ResumeUI(props: IResumeUIProps) {
   return (
     <MainWrapper>
       <Title>소통하는 프론트엔드 엔지니어 신동원입니다.</Title>
