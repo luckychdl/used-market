@@ -13,7 +13,7 @@ export default function LayoutNavigation() {
     router.push("../../../../../myPage");
   };
   const onClickMoveToResume = () => {
-    router.push("../../../../../gallery");
+    router.push("../../../../../resume");
   };
   return (
     <LayoutNavigationUI
