@@ -100,7 +100,9 @@ const MarketDetail = () => {
     router.push(`/usedMarket/detail/${router.query.useditemId}/edit`);
   };
   useEffect(() => {
-    if (!data) return;
+    if (!data) {
+      return;
+    }
     const script = document.createElement("script");
     script.src =
       "//dapi.kakao.com/v2/maps/sdk.js?appkey=f7c32ed029b0a9345341d56c3631807f&libraries=services,clusterer,drawing&autoload=false";
