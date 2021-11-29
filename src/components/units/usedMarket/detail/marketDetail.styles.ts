@@ -126,6 +126,7 @@ export const ContentsWrapper = styled.div`
   }
 `;
 export const MapBox = styled.div`
+  width: 700px;
   max-width: 792px;
   height: 360px;
   border-bottom: 1px solid #bdbdbd;
