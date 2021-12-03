@@ -41,5 +41,5 @@ export const getServerSideProps = async (context: any) => {
       useditemId: context.query.useditemId,
     }
   );
-  return { props: { fetchUseditem: result.fetchUseditem } };
+  return { props: { fetchUseditem: result.fetchUseditem } }
 };
