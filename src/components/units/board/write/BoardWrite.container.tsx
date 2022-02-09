@@ -60,7 +60,6 @@ export default function BoardWrite(props: any) {
   }
   async function onChangeInputsDetail(event: ChangeEvent<HTMLInputElement>) {
     setAddressDetail(event.target.value);
-    
   }
   function handleOK() {
     setIsOpen(false);
